@@ -2,4 +2,6 @@ it's been an interesting couple of weeks. Alot learnt, alot to absorb. typing aw
 
 
 something else huh? what can I say?
-Waiting....
+Waiting...
+
+Yeah Umuzi.. seems like we'll learn more than just coding. Awesome guest we had this week, Miss Earth
