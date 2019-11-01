@@ -1,0 +1,304 @@
+    1  sudo fsck
+    2  sudo touch/forcefsck
+    3  fsck
+    4  sudo fsck
+    5  sudo forcefsck
+    6  man fsck
+    7  ls
+    8  pwd
+    9  mkdir
+   10  mkdir --help
+   11  ls
+   12  pwd
+   13  mkdir workspace
+   14  cd workspace
+   15  ls
+   16  touch README.md
+   17  cp -/.README.md another1
+   18  cp --help
+   19  xterm
+   20  sudo apt install xterm
+   21  xterm --help
+   22  man xterm
+   23  echo "dhhd" >> /pts/0 
+   24  echo "dhhd" >> dev/pts/0 
+   25  echo "dhhd" >> /dev/pts/0 
+   26  echo "send a message" >> /dev/pts/0 
+   27  ~
+   28  cd..
+   29  /
+   30  cd/
+   31  cd ~
+   32  pwd
+   33  mkdir practice
+   34  cd practice
+   35  ls
+   36  touch newfile.txt
+   37  ls
+   38  cd Documents
+   39  cd ~
+   40  cd Documents
+   41  touch pad.md
+   42  ls
+   43  cd Desktop
+   44  cd ~
+   45  cd workspace/
+   46  cd /Documents
+   47  cd ~/Documents
+   48  cd ~/Desktop
+   49  mkdir work
+   50  cd -
+   51  ls
+   52  cp pad.md work pad_copy.md
+   53  cp pad.md pad_copy.md work
+   54  pwd
+   55  cp pad.md pad_copy.md
+   56  ls
+   57  cd ~
+   58  sudo locatedb
+   59  ps
+   60  ls
+   61  pwd
+   62  mkdir workspace
+   63  locate workspace
+   64  cd workspace
+   65  ls
+   66  cp READ.md red.md
+   67  cp -/. READ.md CHANGELOG.md
+   68  cp --help
+   69  cp READ.md CHANGELOG.md
+   70  cp README.md CHANGELO.md
+   71  ls
+   72  touch exercise.md
+   73  pwd
+   74  find tmp
+   75  cd`
+   76  cd~
+   77  pwd
+   78  cd cphyso
+   79  cd ~
+   80  pwd
+   81  /
+   82  locate tmp
+   83  pwd
+   84  cd workspace
+   85  touch exercise.md
+   86  mv exercise.md tmp/
+   87  locate tmp
+   88  mv exercise.md cphyso/.config/libreoffice/4/user/extensions/tmp
+   89  mv exercise.md tmp
+   90  pwd
+   91  cd tmp
+   92  cd ~
+   93  cphyso
+   94  cd cphyso
+   95  cd /home/cphyso
+   96  cd cphyso
+   97  cd ~
+   98  pwd
+   99  cd .config/libreoffice/4/user/extensions/tmp
+  100  ls
+  101  cd workspace
+  102  cd ~
+  103  cd workspace
+  104  ls
+  105  locate exercise.md
+  106  find exercise.md
+  107  touch exercise.md
+  108  ls
+  109  mv exercise.md tmp
+  110  ls
+  111  touch exercise.md
+  112  ls
+  113  touch exercise2.md
+  114  ls
+  115  mv exercise2.md cphyso/cphyso/.config/libreoffice/4/user/extensions/tmp
+  116  mv exercise2.md cphyso/.config/libreoffice/4/user/extensions/tmp
+  117  cd tmp
+  118  cd cphyso/.config/libreoffice/4/user/extensions/tmp
+  119  cd .config/libreoffice/4/user/extensions/tmp
+  120  ls
+  121  mv exercise2.md /tmp
+  122  ls
+  123  cd /tmp
+  124  ls
+  125  pwd
+  126  cd workspace
+  127  cd -
+  128  ls
+  129  touch umuzi.md recruits.md cohort.md 
+  130  ls
+  131  recruits.md
+  132  recruits
+  133  opem recruits
+  134  open recruits
+  135  open recruits.md
+  136  nano recruits
+  137  cat recruits
+  138  nano cohort.md
+  139  cat cohort.md
+  140  cat cohort
+  141  ls
+  142  cat cohort
+  143  nano cohort
+  144  cat cohort
+  145  cat cohort.md
+  146  ls
+  147  nano umuzi
+  148  cat umuzi.md recruits.md cohort.md > summary.md
+  149  cat summary
+  150  cat summary.md
+  151  cat>>summary.md
+  152  cat summary.md | less
+  153  locate pdf
+  154  ps
+  155  vi
+  156  ls
+  157  cd Desktop | ls
+  158  cd Desktop | ls -al
+  159  pwd
+  160  cd /Desktop | ls -al
+  161  cd Desktop/
+  162  ls
+  163  cd ..
+  164  ls | cd Desktop/
+  165  pwd
+  166  locate pdf
+  167  locate pdf > activity1
+  168  cd activity1
+  169  locate pdf > Pictures
+  170  cd Pictures
+  171  ls
+  172  ls a
+  173  ls-a
+  174  find /type f -name *.pdf
+  175  pwd
+  176  find -type f name 8.pdf
+  177  find -type f name *.pdf
+  178  find --help
+  179  clear
+  180  find . -type f -name*.pdf
+  181  find . -type f -*.pdf
+  182  find . -type f -name *.pdf
+  183  find . -type f -name *.pdf | >> results.md
+  184  cd results
+  185  cd results.md
+  186  ls
+  187  cd ~
+  188  mv | find . -type f -name *.pdf | results.md
+  189  find . -type f -name *.pdf>> resuls.md
+  190  cd results.md
+  191  ls
+  192  ls-l
+  193  cd Desktop
+  194  cd /Desktop
+  195  cd ~
+  196  find . -type f -name *.pdf
+  197  ls
+  198  find . -type f -name *.pdf > results.md
+  199  find . -type f -name *.pdf >> results.md
+  200  nano --version
+  201  git --version
+  202  sudo apt install git
+  203  git --version
+  204  git-basic-exercises
+  205  mkdir git-basic-exercises
+  206  cd git-basic-exercises/
+  207  ls -a
+  208  git init
+  209  ls -a
+  210  git status
+  211  touch README.md
+  212  ls -a
+  213  git status
+  214  git log
+  215  git add README.md
+  216  git status
+  217  git rm --cached README.md
+  218  git status
+  219  git add README.md
+  220  git status
+  221  git commit -m "initial commit"
+  222  git commit -m initial commit
+  223  git config --global user.name cphyso
+  224  git commit -m "initial commit"
+  225  git config --global user.email 
+  226  git config --global user.email "mcphyso@gmail"
+  227  git config --global user.name "Cphyso"
+  228  git config --global list
+  229  git config --global user.email "mcphyso@gmail.com"
+  230  git config  --global user.name "Cphyso"
+  231  git config --list
+  232  git commit -m "initial commit"
+  233  git log
+  234  q
+  235  nano README.md
+  236  cat README.md
+  237  git status
+  238  git log
+  239  git add
+  240  git add README.md
+  241  git status
+  242  git commit -m "second commit"
+  243  pwd
+  244  mkdir git-basic-exercises
+  245  cd git-basic-exercises/
+  246  ls -a
+  247  git init
+  248  ls -a
+  249  git status
+  250  touch README.md
+  251  ls -a
+  252  git status
+  253  git log
+  254  git add README.md
+  255  git status
+  256  git rm --cached README.md
+  257  git status
+  258  git add README.md
+  259  git status
+  260  git commit -m "initial commit"
+  261  git log
+  262  git status
+  263  nano README.md
+  264  cat README.md
+  265  git status
+  266  git commit -m "second commit"
+  267  git add README.md
+  268  git status
+  269  git commit -m "second commit"
+  270  git log
+  271  nano README.md
+  272  cat README.md
+  273  git status
+  274  git add README.md
+  275  git status
+  276  git commit -m "third commit"
+  277  git log
+  278  q
+  279  git checkout 95ded816913960c3038e3babc4ebee20e1c5eddf
+  280  cat README.md
+  281  git checkout master
+  282  cat README.md
+  283  git branch
+  284  git branch milkshake-flavours
+  285  git milkshake-flavours
+  286  git branch --help
+  287  git checkout -b milkshakes-flavours
+  288  git branch
+  289  nano milkshakes.md
+  290  git status
+  291  git add milkshakes.md
+  292  git status
+  293  git commit -m "added initial flavours"
+  294  git log
+  295  git status
+  296  git checkout master
+  297  git status
+  298  git branch
+  299  git log
+  300  git checkout -b history
+  301  git checkout history
+  302  ls -a
+  303  git log
+  304  history > history.txt
